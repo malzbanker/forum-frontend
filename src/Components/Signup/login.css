@@ -1,0 +1,21 @@
+.first-par{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 14px;
+color: rgb(102,102,102);
+}
+.backgroundimage{
+background-image: url(../../Images/Icons/mallbg.svg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+    form input{
+        outline: none;
+        padding: 5px;
+    }
+    .login-border input {
+        border: 1px solid rgb(204, 204, 204);
+        border-radius: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
