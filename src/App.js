@@ -55,7 +55,7 @@ const [userData, setUserData] = useContext(UserContext);
     <>
       <Navbar logout={logout} />
       <Routes>
-        <Route path="/" element={<Home  />} />
+        <Route path="/" element={<Home logout={logout}  />} />
         <Route path="/login/" element={<Login />} />
         <Route path="/signup/" element={<Signup />} />
         <Route path="/question/" element={<Question />} />

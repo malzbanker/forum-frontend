@@ -36,7 +36,7 @@ const Navbar = ({ logout }) => {
 
 
   const Links=[
-    {name:"Home",link:"/"},
+    {name:"Home",link:"#"},
     {name:"How it works",link:"#"}
   ]
 
